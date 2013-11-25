@@ -37,11 +37,40 @@
       <h1>Matt's Open Source Home</h1>
   </header>
   <div role="main">
-      This site will demonstrate HTML5, CSS2, jQuery, and other modern web development techniques.
+      This site will demonstrate HTML5, CSS2, jQuery, and other modern web development techniques.<br>
       It is a work-in-progress and will be enhanced continuously.
       <p>
       To see my regular home page, go to <a href="http://matthewrlindsey.azurewebsites.net">Matthew R. Lindsey</a>.
       </p>
+      <div id="signup">
+        <h2>Sign up</h2>  
+        <form action="">
+          <div>
+            <label for="name">Name:</label>
+            <input name="name" id="name" type="text"/>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="text"/>
+          </div>
+          <div>
+            <label for="website">Web site URL:</label>
+            <input name="website" id="website" type="text" />
+          </div>      
+          <div>
+            <label for="password">Password:</label>
+            <input name="password" id="password" type="password" />
+          </div>   
+          <div>
+            <label for="passconf">Confirm Password:</label>
+            <input name="passconf" id="passconf" type="password" />
+          </div>      
+          <div>
+          	<input type="submit" value="Submit" />
+          </div>
+        </form>
+	  </div>
+      <br>
   </div>
   <footer>
     <address>
@@ -58,6 +87,9 @@
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+  <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/additional-methods.min.js"></script>
 
   <!-- scripts concatenated and minified via build script -->
   <script src="js/plugins.js"></script>
