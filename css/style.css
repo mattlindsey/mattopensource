@@ -36,6 +36,7 @@ html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 body { background-color: #fff;
     border-top: solid 10px #000;
+    border-left: solid 10px white;
     color: #333;
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif; margin: 0; font-size: 1em; line-height: 1.4; }
