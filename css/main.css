@@ -91,10 +91,32 @@ textarea {
     padding: 0.2em 0;
 }
 
+/* clearfix */
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+img#mattpic {
+    height: 50px;
+    width: 45px;
+    margin-top: 20px;
+    float: right;
+}
+#mattname {
+    float: left;
+}
 
 
 

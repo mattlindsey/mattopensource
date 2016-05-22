@@ -3,7 +3,8 @@
 */
 
 $(document).ready(function(){
-  $('#signup form').validate({
+
+/*  $('#signup form').validate({
     rules: {
       name: {
         required: true
@@ -26,7 +27,13 @@ $(document).ready(function(){
     success: function(label) {
       label.text('OK!').addClass('valid');
     }
-  });
+  });*/
+
+  function clickSubmit() {
+    alert('Not Implemented Yet');
+  }
+  document.getElementById('submitbutton').onclick = clickSubmit;
+
 });
 
 
