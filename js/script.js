@@ -30,6 +30,9 @@ $(document).ready(function(){
   });*/
 
   function clickSubmit() {
+    if (document.getElementById('passconf').textContent != document.getElementById('password').textContent) {
+      alert('Passwords must match');
+    }
     alert('Not Implemented Yet');
   }
   document.getElementById('submitbutton').onclick = clickSubmit;

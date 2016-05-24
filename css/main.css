@@ -112,6 +112,7 @@ img#mattpic {
     height: 50px;
     width: 45px;
     margin-top: 20px;
+    margin-right: 10px;
     float: right;
 }
 #mattname {
