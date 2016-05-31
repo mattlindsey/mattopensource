@@ -105,33 +105,6 @@ textarea {
     zoom: 1;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-img#mattpic {
-    height: 50px;
-    width: 45px;
-    margin-top: 20px;
-    margin-right: 10px;
-    float: right;
-}
-#mattname {
-    float: left;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
@@ -302,4 +275,24 @@ img#mattpic {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+img.smallPic{
+    height: 50px;
+    width: 45px;
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+}
+img.bigPic{
+    height: 100px;
+    width: 92px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#mattName {
+    float: left;
 }

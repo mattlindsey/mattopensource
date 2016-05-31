@@ -34,19 +34,26 @@
         <li role="presentation"><a href="#">Portfolio</a></li>
         <li role="presentation"><a href="#address">Contact</a></li>
     </ul>
-    <img id="mattpic" src="img/face_tie.jpg" alt="Matt"/>
-    <div class="container" id="mattweb">
-        <h1 id="mattname">Matt Lindsey's Site</h1>
+    <img id="mattPic1" class="smallPic" src="img/matt1.jpg" alt="Matt"/>
+    <!--<img id="mattPic2" class="smallPic" src="img/matt2.jpg" alt="Matt"/>-->
+    <div class="container" id="mattWeb">
+        <h1 id="mattName">Matt Lindsey's Site</h1>
     </div>
 </header>
 <div class="container" id="main" role="main">
-    <div id="intro">
-        <h2>Introduction</h2>
-        This site will demonstrate HTML5, CSS2, jQuery, and other modern web development techniques.<br>
-        - Start by taking a look at my <a href="http://blog.matthewrlindsey.org">Blog</a>.<br>
-        - Then request an id using the form below and log into my <a href="http://demo.matthewrlindsey.org">Demo</a> Site (TBD).<br>
-        This is a work-in-progress and will be enhanced continuously.<br>
-        The original html templates are from <a href="http://html5boilerplate.com/">HTMLBoilerPlate</a>.<br>
+    <div class="row" id="intro">
+        <div class="col-md-8">
+          <h2>Introduction</h2>
+          This site will demonstrate HTML5, CSS3, JavaScript EC6, jQuery, and other modern web development techniques.<br>
+          - Start by taking a look at my <a href="http://blog.matthewrlindsey.org">Blog</a>.<br>
+          - Then request an id using the form below and log into my <a href="http://demo.matthewrlindsey.org">Demo</a> Site (TBD).<br>
+          This is a work-in-progress and will be enhanced continuously.<br>
+          The original html templates are from <a href="http://html5boilerplate.com/">HTMLBoilerPlate</a>.<br>
+        </div>
+        <!--<div class="col-md-4">
+          <img id="mattBigPic1" class="bigPic" src="img/matt1.jpg" alt="Matt"/>
+        </div>
+        -->
     </div>
     <div id="signup">
         <h2>Demo Sign up Form - Private Area</h2>
@@ -80,13 +87,45 @@
     <br>
 </div>
 
-<footer>
-    <address id="address">
-        Written by <a href="mailto:matthew.r.lindsey@gmail.com">Matt Lindsey</a>.<br>
-        Visit me at:<br>
-        MatthewRLindsey.org<br>
-        USA
-    </address>
+<footer class="site-footer">
+    <hr>
+    <div class="wrapper">
+
+        <!--<h2 class="footer-heading">Matt Lindsey's Blog</h2>-->
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col footer-col-1">
+                <ul class="contact-list">
+                    <!--<li>Matt Lindsey's Blog</li>-->
+                    <li>Mail: <a href="mailto:matthew.r.lindsey@gmail.com">matthew.r.lindsey@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <ul class="social-media-list">
+                    <li>LinkedIn:
+                        <a href="https://www.linkedin.com/in/matthewrlindsey"><span class="icon icon--linkedin">
+                                </span><span class="username">matthewrlindsey</span></a>
+                    </li>
+                    <li>Github:
+                        <a href="https://github.com/mattlindsey"><span class="icon icon--github">
+                                </span><span class="username">mattlindsey</span></a>
+                    </li>
+                    <li>Twitter:
+                        <a href="https://twitter.com/matthewrlindsey"><span class="icon icon--twitter">
+                                </span><span class="username">matthewrlindsey</span></a>
+
+                    </li>
+                </ul>
+            </div>
+
+            <!--<div class="footer-col footer-col-3">
+                <p>This is Matt Lindsey's site at www.matthewrlindsey.org.
+                </p>
+            </div>-->
+        </div>
+
+    </div>
 </footer>
 
 

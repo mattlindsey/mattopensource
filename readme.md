@@ -9,7 +9,6 @@ This project is the product of many years of iterative development and combined 
 
 Clone the git repo - `git clone git://github.com/h5bp/html5-boilerplate.git` - or [download it](https://github.com/h5bp/html5-boilerplate/zipball/master)
 
-
 ## Features
 
 * HTML5 ready. Use the new elements with confidence.
@@ -53,3 +52,8 @@ Anyone and everyone is welcome to [contribute](https://github.com/h5bp/html5-boi
 ### Everything else:
 
 The Unlicense (aka: public domain)
+
+
+### Additional instructions for mattopensource site
+Clone the git repo - `git clone git://github.com/mattlindsey/mattopensource.git`
+Install Sass       - `gem install sass`
